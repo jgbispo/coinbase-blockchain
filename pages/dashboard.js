@@ -2,10 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import Header from '../components/Header'
 import Portfolio from '../components/Portfolio'
+import Sidebar from '../components/Sidebar'
 
 const Dashboard = ({ address }) => {
   return (
     <Wrapper>
+      <Sidebar />
       <MainContainer>
         <Header />
         <Portfolio />
@@ -22,6 +24,7 @@ const Wrapper = styled.div`
   width: 100vw;
   background-color: #0a0b0d;
   color: #ffff;
+  overflow: hidden;
 `
 const MainContainer = styled.div`
   flex: 1;
