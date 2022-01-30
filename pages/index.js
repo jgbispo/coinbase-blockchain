@@ -1,7 +1,7 @@
+import styled from 'styled-components'
 import Dashboard from './dashboard.js'
 
 import { useWeb3 } from '@3rdweb/hooks'
-import styled from 'styled-components'
 
 export default function Home() {
   const { address, connectWallet } = useWeb3()
@@ -16,7 +16,7 @@ export default function Home() {
             Connect Wallet
           </Button>
           <Details>
-            You need chrome to be <br /> able to run this app.
+            You need chrome to be <br /> enable to run this app.
           </Details>
         </WalletConnect>
       )}
@@ -48,10 +48,10 @@ const Button = styled.div`
   font-size: 1.3rem;
   font-weight: 500;
   border-radius: 0.4rem;
-  background-color #3773f5;
+  background-color: #3773f5;
   color: #000;
 
-  &hover {
+  &:hover {
     cursor: pointer;
   }
 `

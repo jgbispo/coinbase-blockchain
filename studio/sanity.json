@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "coinbase-blockchain"
-  },
   "api": {
     "projectId": "uwuggmgt",
     "dataset": "coins"
+  },
+  "project": {
+    "name": "coinbase-blockchain"
   },
   "plugins": [
     "@sanity/base",
