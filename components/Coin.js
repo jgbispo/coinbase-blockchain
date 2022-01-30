@@ -36,10 +36,8 @@ const Coin = ({ coin }) => {
             {coin.change}%
           </div>
         </div>
-        <div styled={{ flex: 1 }}>{coin.allocation}</div>
-        <div style={{ flex: 0 }}>
-          <BsThreeDotsVertical />
-        </div>
+        <div styled={{ flex: 1 }}>{coin.allocation}%</div>
+        <div style={{ flex: 0 }}><BsThreeDotsVertical /></div>
       </div>
     </Wrapper>
   )
@@ -52,7 +50,7 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  
 
   & > div {
     width: 100%;
@@ -65,12 +63,14 @@ const Wrapper = styled.div`
 
 const NameCol = styled.div`
   display: flex;
+  max-width: 250px;
   align-items: center;
 `
 
 const CoinIcon = styled.div`
   width: 1.8rem;
   margin-right: 1rem;
+  
 `
 
 const Primary = styled.div`
