@@ -11,7 +11,7 @@ const Sidebar = () => {
     <Wrapper>
       <LogoContainer>
         <Logo>
-          <Image src={CoinbaseLogo} alt="Coinbase Logo" />
+          <Image src={CoinbaseLogo} alt='Coinbase Logo' />
         </Logo>
       </LogoContainer>
       <NavItemsContainer>
@@ -77,5 +77,4 @@ const NavIcon = styled.div`
 
 const NavTitle = styled.div`
   
-
 `

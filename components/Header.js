@@ -7,14 +7,14 @@ const Header = () => {
       <Title>Assets</Title>
       <ButtonsContainer>
         <Button style={{background: '#3773f5', color: "#00000"}}>
-          Buy / Sell
+        Buy / Sell
         </Button>
         <Button>
-          Send / Receive
+        Send / Receive
         </Button>
       </ButtonsContainer>
     </Wrapper>
-  )
+    )
 }
 
 export default Header
@@ -27,6 +27,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
 `
+
 const Title = styled.div`
   font-size: 2rem;
   font-weight: 600;
@@ -49,3 +50,18 @@ const Button = styled.div`
     cursor: pointer;
   }
 `
+
+const WalletLink = styled.div`
+  font-size: 0.8rem;
+  border: 1px solid #282b2f;
+  border-radius: 50rem;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  padding: 0 1 rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+`
+
+const WalletAddress = styled.div``
